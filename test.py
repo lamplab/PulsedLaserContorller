@@ -43,8 +43,8 @@ print "Laser off"
 
 p.WriteOperatingPower(0)
 
-print "Waiting 5 seconds"
-for _ in xrange(0, 500):
+print "Waiting 0.5 seconds"
+for _ in xrange(0, 50):
         p.FeedWatchdog()
         time.sleep(0.01)
 
